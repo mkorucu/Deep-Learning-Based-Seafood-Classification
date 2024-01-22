@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['Black-Sea-Sprat-tirsi-', 'Gilt-Head-Bream-c-ipura-', 'Hourse-Mackerel-istavrit-', 'Red-Mullet-kefal-', 'Red-Sea-Bream-mercan-', 'Sea-Bass-levrek-', 'Shrimp-karides-', 'Striped-Red-Mullet-tekir-', 'Trout-alabalik-']
+
+roboflow:
+  workspace: annproject-qlwcc
+  project: fish_classification-xnmwm
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/annproject-qlwcc/fish_classification-xnmwm/dataset/2
